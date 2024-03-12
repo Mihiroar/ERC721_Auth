@@ -1,0 +1,41 @@
+/* Reset default margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply background image to the entire screen */
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height of the body to cover the full viewport height */
+}
+
+/* Style for the beautiful sentence */
+.beautiful-sentence {
+  /* Add your styles for the beautiful sentence here */
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Glowing effect */
+  color: #000080;
+}
+
+/* Additional styles as needed */
+
+/* CSS classes for different NFT images */
+.nft-background-1 {
+  background-image: url('../assets/nft1.jpg'); /* Replace with the correct path to your NFT image 1 */
+  opacity: 0.5; /* Adjust opacity value to make it slightly visible */
+}
+
+.nft-background-2 {
+  background-image: url('../assets/nft2.jpg'); /* Replace with the correct path to your NFT image 2 */
+  opacity: 0.5; /* Adjust opacity value to make it slightly visible */
+}
+
+.nft-background-3 {
+  background-image: url('../assets/nft3.jpg'); /* Replace with the correct path to your NFT image 3 */
+  opacity: 0.5; /* Adjust opacity value to make it slightly visible */
+}
